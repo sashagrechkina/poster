@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+@font-face {
+  font-family: "ComforterBrush";
+  src: url("../fonts/ComforterBrush-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+
+}
+@font-face {
+  font-family: "stick";
+  src: url("../fonts/Stick-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansCondensed";
+  src: url("../fonts/OpenSansCondensed-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1{
+  font-family:ComforterBrush;
+}
+h2{
+  font-family:stick;
+}
+h3{
+  padding-top: 4vw;
+  padding-left: 5vw;
+  font-size: 4vw;
+  font-family:OpenSansCondensed;
+  color: #787738;
+}
